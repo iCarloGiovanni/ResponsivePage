@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Los Angeles Mountains</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Transparent Header -->
+    <header class="transparent">
+      <img src="./img/Logo.png" alt="Logo Icon" />
+      <nav>
+        <a href="#history">01. HISTORY</a>
+        <a href="#team">02. TEAM</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home"></section>
+
+    <!-- Sticky Header -->
+    <header class="sticky">
+      <img src="./img/Logo-name.png" alt="Logo Icon" />
+      <nav>
+        <a href="#history">01. HISTORY</a>
+        <a href="#team">02. TEAM</a>
+      </nav>
+    </header>
+
+    <!-- History Section -->
+    <section id="history">
+      <div>
+        <h1>
+          <span class="title-number">01.</span
+          ><span class="title-name">HISTORY</span>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante
+          viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est.
+          Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras
+          scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis
+          hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec
+          congue.
+        </p>
+      </div>
+      <div class="carousel">
+        <div class="image-container">
+          <div class="carousel-item">
+            <img src="./img/carousel-1.png" alt="Carousel Image 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel-2.png" alt="Carousel Image 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel-1.png" alt="Carousel Image 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel-2.png" alt="Carousel Image 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+      <div class="title-container">
+        <h1>
+          <span class="title-number">02.</span
+          ><span class="title-name">CLIMB</span>
+        </h1>
+        <p>
+          Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida
+          quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim
+          tortor nec congue.
+        </p>
+      </div>
+      <div class="tabs">
+        <button onclick="openTab('mountain1')">MOUNTAIN 1</button>
+        <button onclick="openTab('mountain2')">MOUNTAIN 2</button>
+      </div>
+      <div id="mountain1" class="tabcontent">
+        <div class="tab">
+          <div class="info">
+            <h2>SCHEDULE</h2>
+            <table>
+              <tr>
+                <td>25 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td>28 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>18 Dec 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>7 Jan 2017</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div id="mountain2" class="tabcontent">
+        <div class="tab">
+          <div class="info">
+            <h2>SCHEDULE</h2>
+            <table>
+              <tr>
+                <td>17 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>13 Dec 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td>28 Dec 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>9 Feb 2017</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <img src="./img/Logo-dark.png" alt="Logo Icon" />
+      <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
